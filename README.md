@@ -59,17 +59,19 @@ Response Generation: The chatbot delivers the output to the user in a conversati
 
 
 #Installation and Setup
-***Clone the Repository***
-```bash
-git clone https://github.com/Anjana-KTS/Conversational-Medical-Assistant-Using-Rasa.git
-
+ ***Clone the Repository***
+ ```bash
+ git clone https://github.com/Anjana-KTS/Conversational-Medical-Assistant-Using-Rasa.git cd Conversational-Medical-Assistant-Using-Rasa
+ ```
 
 Install Dependencies
-Install the required Python packages:
+Install the required Python packages
 
-bash
+ ```bash
 Copy code
-pip install -r requirements.txt  
+pip install -r requirements.txt
+ ```
+
 Set Up Neo4j
 
 Install Neo4j Community Edition.
@@ -77,21 +79,25 @@ Import the provided knowledge_graph.cypher file to populate the database.
 Configure Rasa
 
 Train the NLU and Core models:
-bash
+ ```bash
 Copy code
-rasa train  
+rasa train
+ ```
 Run the Rasa server:
-bash
+ ```bash
 Copy code
 rasa run --enable-api  
+ ```
 Start the Action Server
 
-bash
+ ```bash
 Copy code
 rasa run actions  
+ ```
 Testing the Bot
 Interact with the bot locally using:
 
-bash
+ ```bash
 Copy code
 rasa shell  
+ ```

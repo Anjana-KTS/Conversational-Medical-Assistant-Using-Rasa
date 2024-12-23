@@ -59,11 +59,11 @@ Response Generation: The chatbot delivers the output to the user in a conversati
 
 
 #Installation and Setup
-Clone the Repository
-
-'''bash
-Copy code
+***Clone the Repository***
+```bash
 git clone https://github.com/Anjana-KTS/Conversational-Medical-Assistant-Using-Rasa.git
+
+
 Install Dependencies
 Install the required Python packages:
 

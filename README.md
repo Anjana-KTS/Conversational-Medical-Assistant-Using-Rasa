@@ -63,7 +63,7 @@ Clone the Repository
 
 bash
 Copy code
-git clone   
+git clone https://github.com/Anjana-KTS/Conversational-Medical-Assistant-Using-Rasa.git
 Install Dependencies
 Install the required Python packages:
 

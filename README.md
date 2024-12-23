@@ -68,7 +68,6 @@ Install Dependencies
 Install the required Python packages
 
  ```bash
-Copy code
 pip install -r requirements.txt
  ```
 
@@ -80,24 +79,20 @@ Configure Rasa
 
 Train the NLU and Core models:
  ```bash
-Copy code
 rasa train
  ```
 Run the Rasa server:
  ```bash
-Copy code
 rasa run --enable-api  
  ```
 Start the Action Server
 
  ```bash
-Copy code
 rasa run actions  
  ```
 Testing the Bot
 Interact with the bot locally using:
 
  ```bash
-Copy code
 rasa shell  
  ```

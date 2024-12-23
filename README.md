@@ -5,12 +5,7 @@ This repository contains the implementation of a Conversational Medical Assistan
 # Features
 Natural Language Understanding (NLU):
 
-Configured pipelines for intent classification, entity extraction, and synonym mapping using Rasa’s powerful NLU components. Handles user intents such as symptom inquiry, disease prediction, medication suggestions, and appointment scheduling.
-
-
-Dialogue Management:
-
-Implemented custom stories and rules for seamless conversation flow. Supported fallback mechanisms for unrecognized intents and ambiguous user inputs. 
+Configured pipelines for intent classification, entity extraction, and synonym mapping using Rasa’s powerful NLU components. Handles user intents such as symptom inquiry, disease prediction, medication suggestions, and appointment scheduling. Implemented custom stories and rules for seamless conversation flow. Supported fallback mechanisms for unrecognized intents and ambiguous user inputs.
 
 
 Neo4j Knowledge Graph Integration:
@@ -20,11 +15,4 @@ The chatbot retrieves structured medical information using a Neo4j database, enh
 
 Custom Actions:
 
-Implemented server-side actions to query Neo4j and dynamically generate responses tailored to user queries.
-Leveraged Python scripts to establish connectivity with the Neo4j database via the Neo4j Python driver.
-
-
-Scalable Architecture:
-
-Designed to support integration with various front-end interfaces such as web applications, mobile apps, or voice assistants.
-Configured Rasa's endpoints for real-time interactions and API integrations.
+Implemented server-side actions to query Neo4j and dynamically generate responses tailored to user queries. Leveraged Python scripts to establish connectivity with the Neo4j database via the Neo4j Python driver. Designed to support integration with various front-end interfaces such as web applications, mobile apps, or voice assistants. Configured Rasa's endpoints for real-time interactions and API integrations.
